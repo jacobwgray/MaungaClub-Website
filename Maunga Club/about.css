@@ -34,7 +34,7 @@ header {
     text-decoration: none;
 }
 
-/* Style individual navigation items */
+/* Style navigation items */
 .nav__links li {
     padding: 0 20px;
 }
@@ -111,15 +111,15 @@ body {
 /* Limit the width of the text container and center it */
 .content-container {
     max-width: 800px; 
-    margin: 0 auto; /* Center the container horizontally */
+    margin: 0 auto; 
 }
 
-/* Positioning for the "about" section */
+/* Positioning the "about" */
 .about {
-    position: relative; /* Make the .about element a positioning context */
+    position: relative; 
 }
 
-/* Move all text within the "about" section up */
+/* Move text within "about" section up */
 .about .content-container {
     position: relative;
     top: -50px; /
@@ -146,7 +146,7 @@ body {
 /* Style paragraph text in the "about" section */
 .about p {
     font-size: 18px; 
-    line-height: 1.5; /* Add line spacing for readability */
+    line-height: 1.5;
     margin-bottom: 20px;
     text-align: left; 
 }
@@ -167,7 +167,7 @@ body {
 
 /* Style paragraph text within list items in the "about" section */
 .about ul p {
-    text-align: left; /* Set the text alignment to left */
+    text-align: left; 
 }
 /* Style the help section */
 .help-section {

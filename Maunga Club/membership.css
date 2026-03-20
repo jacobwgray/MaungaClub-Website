@@ -103,7 +103,7 @@ body {
 .help-cta:hover {
     background-color: #008eb2;
 }
-/* Style the "Join the Club" button with white text color */
+
 .join-button {
     color: white;
 }
@@ -119,35 +119,35 @@ body {
     text-align: center;
     padding: 150px 0;
     font-family: "Montserrat", sans-serif;
-    border: 1px solid rgba(255, 255, 255, 0.2); /* Add border with some transparency */
-    border-radius: 10px; /* Add rounded corners to the section */
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color */
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    border-radius: 10px; 
+    background-color: rgba(0, 0, 0, 0.5); 
 }
 
 /* Style membership content box */
 .content-container {
-    max-width: 800px; /* Adjust the maximum width as needed */
-    margin: 0 auto; /* Center the content horizontally */
+    max-width: 800px; 
+    margin: 0 auto; 
     padding: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.2); /* Add border to the content */
-    border-radius: 10px; /* Add rounded corners to the content box */
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background color for the content box */
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    border-radius: 10px; 
+    background-color: rgba(0, 0, 0, 0.7); 
 }
 
 /* Style membership headings */
 .membership h2 {
-    font-family: "Roboto", sans-serif; /* Use Roboto font for headings */
+    font-family: "Roboto", sans-serif; 
     font-size: 28px;
     margin-top: 20px; 
     margin-bottom: 10px; 
-    color: white; /* Set heading text color */
+    color: white; 
 }
 
 /* Style membership paragraphs */
 .membership p {
     font-size: 18px;
     margin-bottom: 20px; 
-    color: white; /* Set paragraph text color */
+    color: white;
 }
 
 /* Style membership links */

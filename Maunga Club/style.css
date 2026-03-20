@@ -66,11 +66,11 @@ header {
 }
 
 .home h1 {
-    font-family: "Roboto", sans-serif; /* Change the font family to Roboto */
+    font-family: "Roboto", sans-serif;
     font-weight: 800;
     font-size: 48px;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a black shadow */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
 
@@ -134,7 +134,7 @@ footer {
 .help-cta:hover {
     background-color: #008eb2;
 }
-/* Style the "Join the Club" button with white text color */
+
 .join-button {
     color: white;
 }

@@ -121,23 +121,23 @@ body {
     padding: 150px 0;
 }
 
-/* Add borders to the FAQ section */
+
 .faq {
-    max-width: 800px; /* Adjust the maximum width as needed */
-    margin: 0 auto; /* Center the FAQ section horizontally */
+    max-width: 800px; 
+    margin: 0 auto; 
     padding: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.2); /* Add border with some transparency */
-    border-radius: 10px; /* Add rounded corners to the section */
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color */
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    border-radius: 10px; 
+    background-color: rgba(0, 0, 0, 0.5); 
 }
 
 /* Style FAQ headings */
 .faq h2 {
-    font-family: "Roboto", sans-serif; /* Use Roboto font for FAQ headings */
+    font-family: "Roboto", sans-serif; 
     font-size: 28px;
     margin-top: 20px; 
     margin-bottom: 10px; 
-    color: white; /* Set heading text color */
+    color: white; 
 }
 
 /* Style FAQ paragraphs */
@@ -152,8 +152,8 @@ body {
 .faq ul {
     font-size: 18px;
     margin-bottom: 20px; 
-    margin-left: 20px; /* Add left margin for lists */
-    color: white; /* Set list text color */
+    margin-left: 20px; 
+    color: white; 
 }
 
 /* Style FAQ list items */
