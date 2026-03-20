@@ -1,0 +1,204 @@
+/* Reset some default styles for all elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: #ffffff;
+}
+
+/* Style the logo */
+.logo {
+    margin-right: auto;
+}
+
+/* Style the navigation links */
+.nav__links {
+    list-style: none;
+    display: flex;
+}
+
+.nav__links a,
+.cta,
+.overlay__content a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Style individual navigation items */
+.nav__links li {
+    padding: 0 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+/* Style the call-to-action button */
+.cta {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: #00a8d2;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.cta:hover {
+    background-color: #008eb2;
+}
+
+/* Style the background image for the "about" section */
+.about {
+    background-image: url(images/mountain_view_dark.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+}
+
+/* Hide the menu on smaller screens */
+.menu {
+    display: none;
+}
+
+/* Style the overlay for small screens */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #24252a;
+    overflow-x: hidden;
+    transition: all 0.5s ease 0s;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px;
+    }
+    .overlay .close {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+/* Center align text in the body */
+body {
+    text-align: center;
+}
+
+/* Limit the width of the text container and center it */
+.content-container {
+    max-width: 800px; 
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Positioning for the "about" section */
+.about {
+    position: relative; /* Make the .about element a positioning context */
+}
+
+/* Move all text within the "about" section up */
+.about .content-container {
+    position: relative;
+    top: -50px; /
+}
+
+/* Style the main heading for the "about" section */
+.about h1 {
+    font-size: 36px; 
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+    color: #00a8d2; 
+}
+
+/* Style subheadings in the "about" section */
+.about h2 {
+    font-size: 24px; 
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    color: #00a8d2;
+    text-align: left; 
+}
+
+/* Style paragraph text in the "about" section */
+.about p {
+    font-size: 18px; 
+    line-height: 1.5; /* Add line spacing for readability */
+    margin-bottom: 20px;
+    text-align: left; 
+}
+
+/* Style list items in the "about" section */
+.about ul {
+    list-style-type: disc; 
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style list item text in the "about" section */
+.about ul li {
+    font-size: 16px; 
+    line-height: 1.4;
+    text-align: left;
+}
+
+/* Style paragraph text within list items in the "about" section */
+.about ul p {
+    text-align: left; /* Set the text alignment to left */
+}
+/* Style the help section */
+.help-section {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* Style the help button */
+.help-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.help-cta {
+    padding: 12px 20px;
+    background-color: #00a8d2;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.help-cta:hover {
+    background-color: #008eb2;
+}
+/* Style the "Join the Club" button with white text color */
+.join-button {
+    color: white;
+}

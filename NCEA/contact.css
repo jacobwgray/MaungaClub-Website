@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: #ffffff;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+}
+
+.nav__links a,
+.cta,
+.overlay__content a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav__links li {
+    padding: 0 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+.cta {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: #00a8d2;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.cta:hover {
+    background-color: #008eb2;
+}
+
+.menu {
+    display: none;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px;
+    }
+    .overlay .close {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+body {
+    text-align: center;
+}
+/* Style the help section */
+.help-section {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* Style the help button */
+.help-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.help-cta {
+    padding: 12px 20px;
+    background-color: #00a8d2;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.help-cta:hover {
+    background-color: #008eb2;
+}
+/* Style the "Join the Club" button with white text color */
+.join-button {
+    color: white;
+}
+
+
+/* Style the FAQ section */
+.help {
+    background-image: url(images/mountain_view_dark.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center; /* Center-align the text */
+    padding: 150px 0;
+}
+
+/* Add borders to the FAQ section */
+.faq {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the FAQ section horizontally */
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Add border with some transparency */
+    border-radius: 10px; /* Add rounded corners to the section */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color */
+}
+
+/* Style FAQ headings */
+.faq h2 {
+    font-family: "Roboto", sans-serif; /* Use Roboto font for FAQ headings */
+    font-size: 28px;
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+    color: white; /* Set heading text color */
+}
+
+/* Style FAQ paragraphs */
+.faq p {
+    font-size: 18px;
+    margin-bottom: 20px; 
+    color: white; /* Set paragraph text color */
+}
+
+/* Style FAQ lists (ordered and unordered) */
+.faq ol,
+.faq ul {
+    font-size: 18px;
+    margin-bottom: 20px; 
+    margin-left: 20px; /* Add left margin for lists */
+    color: white; /* Set list text color */
+}
+
+/* Style FAQ list items */
+.faq li {
+    margin-bottom: 5px; 
+}
+.faq ul,
+.faq ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+.join-text {
+    color: #0088a9; 
+}

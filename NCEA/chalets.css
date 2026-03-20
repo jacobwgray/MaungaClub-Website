@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: #ffffff;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+}
+
+.nav__links a,
+.cta,
+.overlay__content a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav__links li {
+    padding: 0 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+.cta {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: #00a8d2;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.cta:hover {
+    background-color: #008eb2;
+}
+
+.menu {
+    display: none;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px;
+    }
+    .overlay .close {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+body {
+    text-align: center;
+}
+/* Style the help section */
+.help-section {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* Style the help button */
+.help-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.help-cta {
+    padding: 12px 20px;
+    background-color: #00a8d2;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.help-cta:hover {
+    background-color: #008eb2;
+}
+/* Style the "Join the Club" button with white text color */
+.join-button {
+    color: white;
+}
+/* Style the container for the images */
+*{
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Add this to your chalets.css file */
+.chalet-info {
+    background-color: #0088a9;
+    color: white;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.chalet-info h2 {
+    font-size: 28px;
+}
+
+.chalet-info p {
+    font-size: 18px;
+}
+
+.chalet-info ul {
+    font-size: 18px;
+}
+
+.chalet-info {
+    background-color: #0088a9;
+    color: white;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.chalet-info h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+}
+
+.chalet-info p {
+    font-size: 18px;
+}
+
+.chalet-info ul {
+    font-size: 18px;
+}
+
+

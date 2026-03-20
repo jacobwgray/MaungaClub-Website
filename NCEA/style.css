@@ -1,0 +1,140 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: #ffffff;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+}
+
+.nav__links a,
+.cta {
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav__links li {
+    padding: 0 20px;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+.cta {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: #00a8d2;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.cta:hover {
+    background-color: #008eb2;
+}
+
+/* Homepage styles */
+.home {
+    background-image: url(images/mountain_view_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.home h1 {
+    font-family: "Roboto", sans-serif; /* Change the font family to Roboto */
+    font-weight: 800;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a black shadow */
+}
+
+
+
+.home p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.learn-more-btn {
+    padding: 10px 20px;
+    background-color: #00a8d2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more-btn:hover {
+    background-color: #008eb2;
+}
+
+/* Style the footer */
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+/* Style the help section */
+.help-section {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* Style the help button */
+.help-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.help-cta {
+    padding: 12px 20px;
+    background-color: #00a8d2;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.help-cta:hover {
+    background-color: #008eb2;
+}
+/* Style the "Join the Club" button with white text color */
+.join-button {
+    color: white;
+}
